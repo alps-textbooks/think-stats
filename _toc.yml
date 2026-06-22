@@ -1,0 +1,30 @@
+format: jb-book
+root: jb/index
+parts:
+- caption: Front Matter
+  chapters:
+  - file: nb/chap00
+- caption: Chapters
+  numbered: true
+  chapters:
+  - file: nb/chap01
+  - file: nb/chap02
+  - file: nb/chap03
+  - file: nb/chap04
+  - file: nb/chap05
+  - file: nb/chap06
+  - file: nb/chap07
+  - file: nb/chap08
+  - file: nb/chap09
+  - file: nb/chap10
+  - file: nb/chap11
+  - file: nb/chap12
+  - file: nb/chap13
+  - file: nb/chap14
+- caption: Examples
+  chapters:
+  - file: examples/ripoff_etf
+  - file: examples/fourier
+  - file: examples/temperature
+  - file: examples/variability
+  - file: examples/moneyline
