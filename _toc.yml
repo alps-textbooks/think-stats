@@ -28,3 +28,7 @@ parts:
   - file: examples/temperature
   - file: examples/variability
   - file: examples/moneyline
+- caption: Back Matter
+  chapters:
+    - file: about-this-book
+      title: About This Book
